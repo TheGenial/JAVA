@@ -21,5 +21,13 @@ public class TrackCoach implements Coach {
 	public String DailyFortune() {
 		return "Just Do it: " + fortuneService.getFortuneService();
 	}
+	
+	public void doStartupProcess() {
+		System.out.println("Task done when start");
+	}
+	
+	public void doCleanupProcess() {
+		System.out.println("Cleandup task done");
+	}
 
 }
